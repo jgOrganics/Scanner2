@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@drawable/ic_baseline_more_vert_24" android:id="@+id/more" android:title="" android:tooltipText="@string/more" app:showAsAction="always">
+        <menu>
+            <item android:icon="@drawable/ic_baseline_security_24" android:id="@+id/privacy" android:title="@string/privacy" app:showAsAction="never"/>
+            <item android:icon="@drawable/ic_baseline_apps_24" android:id="@+id/more_apps" android:title="@string/moreapp" app:showAsAction="never"/>
+            <item android:icon="@drawable/ic_baseline_login_24" android:id="@+id/logout" android:title="@string/logout" app:showAsAction="never"/>
+            <item android:icon="@drawable/ic_baseline_exit_to_app_24" android:id="@+id/exit" android:title="@string/exit" app:showAsAction="never"/>
+        </menu>
+    </item>
+</menu>
